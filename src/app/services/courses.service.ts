@@ -11,5 +11,9 @@ import {GetCoursesResponse} from "../models/get-courses.response";
 })
 export class CoursesService {
 
+  async loadAllCourses():Promise<Course[]> {
+
+    return[];
+  }
 
 }
