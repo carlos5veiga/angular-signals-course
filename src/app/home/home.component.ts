@@ -20,4 +20,7 @@ import {toObservable, toSignal, outputToObservable, outputFromObservable} from "
 })
 export class HomeComponent {
 
+    courses = signal<Course[]>([]);
+
+    
 }
